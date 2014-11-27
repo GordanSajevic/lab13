@@ -2,6 +2,11 @@ package lab13;
 
 public class ProsjekElemenata {
 
+	/**
+	 * Funckija traži unos niza i vraća taj niz
+	 * @return niz
+	 */
+	
 	public static int[] unosNiza()
 	{
 		System.out.println("Unesite broj elemenata niza: ");
@@ -15,6 +20,12 @@ public class ProsjekElemenata {
 		return niz;
 	}
 	
+	/**
+	 * Funkcija prima niz i računa sumu
+	 * @param niz
+	 * @return suma
+	 */
+	
 	public static double sumaNiza(int[] niz)
 	{
 		double suma = 0;
@@ -24,6 +35,13 @@ public class ProsjekElemenata {
 		}
 		return suma;
 	}
+	
+	/**
+	 * Funkcija prima niz i sumu njegovih članova i vraća prosjek
+	 * @param suma
+	 * @param niz
+	 * @return prosjek
+	 */
 	
 	public static double prosjekNiza(double suma, int[] niz)
 	{
